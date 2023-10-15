@@ -9,13 +9,13 @@ const siteMetadata = {
   siteUrl: 'https://www.markgottenborg.com',
   siteRepo: 'https://github.com/gottenborg/portfolio',
   siteLogo: '/static/images/logo.png',
-  // socialBanner: '/static/images/twitter-card.png',
-  // mastodon: 'https://mastodon.social/@mastodonuser',
+  socialBanner: '',
+  mastodon: '',
   email: 'me@markgottenborg.com',
   github: 'https://github.com/gottenborg',
-  // twitter: 'https://twitter.com/Twitter',
-  // facebook: 'https://facebook.com',
-  // youtube: 'https://youtube.com',
+  twitter: '',
+  facebook: '',
+  youtube: '',
   linkedin: 'https://www.linkedin.com/in/mark-gottenborg',
   locale: 'en-US',
   analytics: {
@@ -37,11 +37,11 @@ const siteMetadata = {
     //   googleAnalyticsId: '', // e.g. G-XXXXXXX
     // },
   },
-  // newsletter: {
-  //   // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus
-  //   // Please add your .env file and modify it according to your selection
-  //   provider: 'buttondown',
-  // },
+  newsletter: {
+    // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus
+    // Please add your .env file and modify it according to your selection
+    provider: 'buttondown',
+  },
   comments: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.
