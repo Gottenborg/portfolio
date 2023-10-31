@@ -1,9 +1,9 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'markgottenborg.com',
+  title: 'Mark Gottenborg',
   author: 'Mark Gottenborg',
   headerTitle: '',
-  description: 'A Portfoliopage created with Next.js and Tailwind.css',
+  description: 'My portefolio page, where I share my Thoughts on Tech, Web development, work-life balance and some of the projects I have been working on.',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://www.markgottenborg.com',
